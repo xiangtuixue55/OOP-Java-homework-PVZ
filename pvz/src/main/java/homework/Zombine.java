@@ -13,6 +13,10 @@ public abstract class Zombine extends MoveableElement {
         super(x, y);
         this.attack = attack;
         this.speed = speed;
+
+
+
+        stageStatue = new ArrayList<>();
     }
 
     @Override
